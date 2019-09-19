@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	</head>
+	<body>
+		<input type="date" id="day" />
+		<script type="text/javascript">
+			var day = document.getElementById('day');
+			var gender = confirm('妇女点确定，不是的别乱点！');
+			day.oninput = function(){
+				gender&&day.value == "2019-03-08"?alert('亲爱的阿姨，妇女节快乐，今天给您打5折'):alert('今天跟你毛关系没有，少一分钱打骨折');
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	</head>
+	<body>
+		<h1 id="show"></h1>
+		<script type="text/javascript">
+			document.getElementById("show");
+			var age = prompt('请输入您的年龄');
+			if(age < 6){
+				alert('您可以白吃白喝！');
+				show.innerHTML = "您可以白吃白喝！"
+			}else if(age > 80){
+				alert('您可以打5折');
+				show.innerHTML = "您可以打5折"
+			}else{
+				alert('少一分钱打骨折！')
+				show.innerHTML = "您少一分钱打骨折！"
+			}
+		</script>
+	</body>
+</html>

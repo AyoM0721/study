@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+       .red{
+           background-color: red;
+       }
+       .blue{
+           background-color: blue;
+       }
+    </style>
+</head>
+<body>
+    <div class="red" id="change"></div>
+    <script>
+    //     var a = 10,b = 20;
+    // //要比较的内容?true:false;
+    //     a<b?alert("创世纪"):alert("诸神黄昏") ;
+        document.getElementById("change");
+        change.onclick = function(){
+            change.className == 'red' ? change.className = 'blue' : change.className = 'red';
+        }
+    </script>
+</body>
+</html>
