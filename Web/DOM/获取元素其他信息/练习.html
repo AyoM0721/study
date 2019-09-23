@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<style type="text/css">
+			.a{
+				width: 200px;
+				height: 200px;
+				background-color: red;
+			}
+			.b{
+				width: 200px;
+				height: 200px;
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn1">变换</button>
+		<div id="a" class="a">
+			愿你三冬暖，愿你春不寒，愿你天黑有灯，下雨有伞，愿你一路上有良人相伴。
+		</div>
+		
+		<script type="text/javascript">
+			var x = document.getElementById('a'),
+				btn1 =document.getElementById('btn1');
+			btn1.onclick = function(){
+				if (x.className != 'a') {
+					x.className = 'a';
+				} else{
+					x.className = 'b';
+				}
+			}
+		</script>
+	</body>
+</html>
