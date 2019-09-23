@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 10;
+        var b = "nihao";
+        var c = true;
+        var d = false;
+        var e = null;
+        var f = undefined;
+        var g = ['1',2];
+        var h = function(){alert(1)};
+
+        //以下是加括号和不加括号的区别
+        console.log(typeof a);//number
+        console.log(typeof(a));//number
+        console.log(typeof a-c);//NaN
+        console.log(typeof (a-c));//number
+        //这是各个变量的数据类型
+        console.log(typeof b);//string
+        console.log(typeof c);//boolean
+        console.log(typeof d);//boolean
+        console.log(typeof e);//object
+        console.log(typeof f);//undefined
+        console.log(typeof g);//object
+        console.log(typeof h);//function
+    </script>
+</body>
+</html>
